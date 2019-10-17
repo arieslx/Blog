@@ -7,6 +7,6 @@
  * 检查等式左右两边差的绝对值是否小于最小精度
  */
 
-export function compareFloatNum() {
-  return Math.abs(0.1 + 0.2 - 0.3) <= Number.EPSILON;
+export function compareFloatNum(a, b, c) {
+  return Math.abs(a + b - c) <= Number.EPSILON;
 }
